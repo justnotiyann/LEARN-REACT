@@ -11,7 +11,7 @@ export default function Hero(props) {
     }
     
     return (
-        <div className="container">
+        <div className="container min-vh-100" id="hero">
             <div className="row justify-content-center align-items-center">
                 <div className="col-6">
                     <h1>Selamat Datang Di Toko Kami</h1>

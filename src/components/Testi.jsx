@@ -3,6 +3,9 @@ import Card from "./Card"
 export default function Testi() {
     return (
         <div className="container">
+            <div className="title">
+                <h1 className="fw-bold text-center mb-5">Our Testimonials is Here</h1>
+            </div>
             <div className="row">
                 <div className="col-4">
                     <Card {...

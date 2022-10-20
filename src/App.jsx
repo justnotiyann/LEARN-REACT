@@ -1,13 +1,15 @@
-import Card from "./components/Card";
+import Navbar from './components/Navbar'
 import Hero from "./components/Hero";
 import Testi from "./components/Testi";
+import './stylesheets/style.css'
 
 export default function App() {
   return (
-    <div className="container" id="main">
-      <Hero />
-      <Testi/>
-    </div>
+    <main id="main">
+        <Navbar/>
+        <Hero />
+        <Testi/>
+    </main>
   )
 }
 
