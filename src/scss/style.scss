@@ -1,45 +1,45 @@
 @mixin transision {
-  transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 nav {
-  background-color: aqua;
-  padding: 2em;
-  ul {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    li {
-      margin-right: 10em;
-      a {
-        text-decoration: none;
-        color: inherit;
-        @include transision;
-        font-size: 1.3em;
-        font-weight: bold;
-      }
+    background-color: aqua;
+    padding: 2em;
+    ul {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        li {
+            margin-right: 10em;
+            a {
+                text-decoration: none;
+                color: inherit;
+                @include transision;
+                font-size: 1.3em;
+                font-weight: bold;
+            }
+        }
     }
-  }
 }
 
 #hero {
-  margin-top: 10em;
+    margin-top: 10em;
 }
 
 .card {
-  box-shadow: 10px 10px black;
-  border: 1px solid black;
-  border-radius: 10px;
-  transition: 0.4s;
+    box-shadow: 10px 10px black;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 0.4s;
 }
 
 .card:hover {
-  box-shadow: 10px 10px rgb(83, 83, 83);
+    box-shadow: 10px 10px rgb(83, 83, 83);
 }
